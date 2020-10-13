@@ -1,0 +1,167 @@
+  {box-sizing: border-box}
+
+.navbar_top {
+  width: 100%;
+  background-color: rgba(0, 219, 255, 0.6);
+  display: flex;
+  height: 70px;
+  float: right;
+  border-bottom: 3px solid skyblue;
+}
+
+
+.head{
+  height: 600px;
+  width: 100%;
+  background-image: url('h1.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+ 
+  
+}
+
+.arkaII{
+  width: 100%;
+  background-color:rgb(0,0,0);
+  overflow: auto;
+  border-top: 1px solid black;
+  min-height: 150px;
+}
+.arkaII a{
+float: right;
+  padding: 15px;
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%; /* Four links of equal widths */
+}
+
+.scrolled-nav {   /* This is to adjust hight of nav during scroll */
+  min-height: 30px !important;
+  max-height: 250px !important;  
+  background-color :rgb(0, 191, 255,0.5);
+  line-height: 20px !important;
+  font-size: 15px;
+}
+.scrolled-nav .logo{
+  float: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+    }
+
+
+@media screen and (max-width: 400px) {
+
+.scrolled-nav .arkaII a{
+
+  font-size: 10px;
+  width: 25%;
+  float: right; 
+}
+}
+
+ .xtu{
+max-height: 400px;
+max-width: 350px;
+margin-bottom: 30px;
+margin-right: 35px;
+padding-top: 5px;
+border-radius: 50px;
+}
+.xtu img{width: 100%;
+ padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius-top: 30px;
+  }
+
+.card-1 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+
+.navbarX {
+  width: 100%;
+  background-color: #fff;
+  overflow: auto;
+  border-top: 1px solid black;
+}
+
+.navbarX a {
+  float: left;
+  padding: 12px;
+  color:#fff;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.6%; /* Four links of equal widths */
+  text-align: center;
+}
+.navbarayx{
+  width: 100%;
+  background-color: #fff;
+  overflow: auto;
+  height: 70px;
+  padding-left: 5%;
+  
+}
+.navbarayx form  {
+  float: left;
+  padding: 12px;
+  color:black;
+  text-decoration: none;
+  font-size: 25px;
+/* Four links of equal widths */
+  text-align: center;
+}
+.ttt{border-radius: 30px;}
+.navbar2 {
+  width: 100%;
+  background-color: #cc0033;
+    color: white;
+    font-size: 16px;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+.navbar2 a {
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+  font-size:20px;
+  width: 33.3%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.arka002 i{
+  color:#fff;
+  font-size:35px;
+  text-align: center;
+  margin: 0.5rem;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .arka .partB{
+   float: left;
+  margin-left:10px;
+}
+  .navbarX a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+  }
+  .navbar2 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+ 
+}
+
+}
